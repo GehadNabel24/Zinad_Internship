@@ -1,0 +1,49 @@
+
+/* Fonts */
+
+body {
+    font-family: "Wittgenstein", serif !important;
+    background-color: #f5eaf0 !important;
+    border: 30px solid black;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+}
+
+
+.align-vertical {
+    display: flex;
+    align-items: center;
+    height: 100%; /* Ensure the column takes full height */
+  }
+  .center-icon {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Ensure the column takes full height */
+  }
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    font-weight: bold;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
